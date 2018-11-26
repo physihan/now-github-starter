@@ -1,0 +1,30 @@
+{
+    "name": "now-github-starter",
+    "version": "1.0.0",
+    "description": "This is a simple project that makes a [static deployment](https://zeit.co/docs/deployment-types/static) to Now.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "next",
+        "build": "next build",
+        "start": "next start",
+        "export": "next export"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/physihan/now-github-starter.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/physihan/now-github-starter/issues"
+    },
+    "homepage": "https://github.com/physihan/now-github-starter#readme",
+    "dependencies": {
+        "@zeit/next-css": "^1.0.1",
+        "next": "^7.0.2",
+        "react": "^16.6.3",
+        "react-dom": "^16.6.3"
+    }
+}
